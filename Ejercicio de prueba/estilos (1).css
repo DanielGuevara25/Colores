@@ -4,11 +4,14 @@
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: rox;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
 }
 
 .item {
-    border: 1px dotted blue;
+    border: 1px dotted rgb(22, 92, 48);
     padding: 10px;
     margin: 10px;
 }
