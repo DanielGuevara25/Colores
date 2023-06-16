@@ -15,6 +15,7 @@
     margin: 5px;
     border: 1px solid black;
     padding: 5px;
+    box-shadow: 10px 5px 5px black;
     text-decoration: none;
 }
 
@@ -29,7 +30,7 @@ a:active.menu{
     background-color:green;
 }
 .item {
-    background-color: dodgerblue;
+    background-color: rgb(64, 40, 107);
     padding: 10px;
     border: 1px solid black;
 }
@@ -47,8 +48,24 @@ a:active.menu{
 .content {
     grid-area: content;
     background-color: aliceblue;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+.item-form  {
+    width: 400px;
+    border: 1px dotted lightgreen;
+    margin: 5px;
+
+} 
+.item-form-label {
+      display: block;
+      float: left;
+      width: 200px;
+
+}
 .footer {
     grid-area: footer;
 }
