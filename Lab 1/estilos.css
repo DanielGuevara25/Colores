@@ -10,6 +10,13 @@
     height: 100vh;
 }
 
+a:hover.menu{
+    background-color:rgb(255, 238, 0);
+}
+a:active.menu{
+    background-color:rgb(255, 238, 0);
+}
+
 .item {
     padding: 10px;
     border: 1px solid rgb(241, 168, 32);
