@@ -70,3 +70,10 @@ a:active.menu{
     grid-area: footer;
     background-color:rgb(241, 168, 32) ;
 }
+
+.cuadradito {
+    border: 1px;
+    width: 700px;
+    height: 400px;
+    background-color: grey;
+}
