@@ -77,3 +77,10 @@ a:active.menu{
     height: 400px;
     background-color: grey;
 }
+#cancelar{
+    background-color: red;
+}
+
+#Guardar{
+    background-color:green;
+}

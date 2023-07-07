@@ -93,4 +93,14 @@ input {
     padding: 5px;
     box-shadow: black 2px 2px 6px 0px inset;
 }
-.botones
+#cancelar{
+    background-color: red;
+}
+
+#continuar{
+    background-color:green;
+}
+
+#Guardar{
+    background-color:green;
+}
